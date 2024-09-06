@@ -23,7 +23,7 @@ module.exports.run = async function ({ api, event, args }) {
   const question = args.join(" ");
 
   // Define the URL for the request
-  const url = `https://gpt4o-ivory.vercel.app/ai?prompt=${encodeURIComponent(question)}`;
+  const url = `https://mywebsite-rest-api.vercel.app/api/redirect?model=cohere/command-r-03-2024&prompt=${encodeURIComponent(question)}`;
 
   try {
     // Send the GET request to the GP4O API
