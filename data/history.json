@@ -1,0 +1,40 @@
+[
+  {
+    "userid": "61564933242113",
+    "prefix": "/",
+    "botName": "𝙴𝚌𝚑𝚘𝙱𝚘𝚝",
+    "adminName": "Kiff Hyacinth Pon",
+    "admin": [
+      "100085898449586"
+    ],
+    "blacklist": [],
+    "enableCommands": [
+      {
+        "commands": [
+          "active-sessions",
+          "adduser",
+          "ai",
+          "autoseen",
+          "help",
+          "listbox",
+          "prefix",
+          "uid"
+        ]
+      },
+      {
+        "handleEvent": [
+          "antiout",
+          "approvedThread",
+          "bot",
+          "capcutDl",
+          "autodl",
+          "detect-edits",
+          "instadl",
+          "randomReact",
+          "resend"
+        ]
+      }
+    ],
+    "time": 0
+  }
+]
